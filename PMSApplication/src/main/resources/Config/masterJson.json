@@ -1,0 +1,187 @@
+{
+
+	"workedAt":[
+					{"key":"SHENZHEN"},
+					{"key":"BANGALORE"}
+				],
+	"brand":[
+	 				{"key":"AKG"},
+	 				{"key":"HK"},
+	 				{"key":"INFINITY"},
+	 				{"key":"JBL"},
+	 				{"key":"LEVITON"},
+	 				{"key":"LEXICON"},
+	 				{"key":"MARK LEVINSON"},
+	 			    {"key":"REVEL"},
+	 				{"key":"UA"},
+	 				{"key":"YURBUDS"}
+	 				
+	        ],
+	 		
+	"category":[
+	                {"key":"CAR AUDIO"},
+	                {"key":"CONNECTED HOME"},
+	                {"key":"LUXUARY AUDIO"},
+	                {"key":"HEADPHONES"},
+	                {"key":"SMART AUDIO"},
+	                {"key":"HEA"}
+	
+	],
+    "sku_type":[
+	               {"key":"BB"},
+	               {"key":"QSG"},
+	               {"key":"OM"},
+	               {"key":"MAGNET LABEL"},
+	               {"key":"Master Carton"},
+	               {"key":"Insert"},
+	               {"key":"General Labels"},
+	               {"key":"Warranty Card"},
+	               {"key":"Warning Card"},
+	               {"key":"Safety Sheets"},
+	               {"key":"Fit Card"},
+	               {"key":"Stickers"},
+	               {"key":"Wall Mount Guide"},
+	               {"key":"Brown Box"},
+	               {"key":"Barcode Creation"},
+	               {"key":"EPS for 2D image"},
+	               {"key":"POS"}
+	
+       ],
+ 
+    "client_name":[
+                      {"key":"HARMAN"},
+                      {"key":"LABEL MAKERS"},
+					  {"key":"3M"},
+                      {"key":"GREEN GRASS"},
+					  {"key":"NJM"},
+                      {"key":"RSL"},
+					  {"key":"SHILP GRAVURES"},
+					  {"key":"WILDCRAFT"},
+					  {"key":"PREMIAFLEX"}
+					  
+    ],
+    "print_process":[
+                      {"key":"OFFSET"},
+                      {"key":"FLEXO"},
+                      {"key":"GRAVURE"},
+                      {"key":"DIGITAL"}
+    ],
+    "pack_format":[
+                      {"key":"CARTON"},
+                      {"key":"CORRUGATED"},
+                      {"key":"LABEL"},
+                      {"key":"FLEXIBLES"},
+                      {"key":"SLEEVE"},
+                      {"key":"SIGNAGE"},
+                      {"key":"INSERT"}
+    ],
+    "job_type":[ 
+                     {"key":"NPD"},
+                     {"key":"Amend Artwork"},
+                     {"key":"Repro"},
+                     {"key":"Image work"},
+                     {"key":"AMEND"},
+                     {"key":"BUILD"},
+                     {"key":"Artwork Re-Creation"},
+                     {"key":"Build + Dispatch"},
+                     {"key":"Build + DV Dispatch"},
+                     {"key":"Build + DV 1 Dispatch"},
+                     {"key":"Build + DV 2 Dispatch"},
+                     {"key":"Build + DV 3 Dispatch"},
+                     {"key":"Amend + PV Dispatch"},
+                     {"key":"Amend + PV 1 Dispatch"},
+                     {"key":"Amend + PV 2 Dispatch"},
+                     {"key":"Amend + PV 3 Dispatch"},
+                     {"key":"Amend + SOP Dispatch"},
+                     {"key":"Re-Build"},
+                     {"key":"Re-Build + PV Dispatch"},
+                     {"key":"Re-Build + SOP Dispatch"},
+                     {"key":"PV Dispatch"},
+                     {"key":"DV Dispatch"},
+                     {"key":"Package Request"},
+                     {"key":"SOP Dispatch"}
+                     
+    ],
+	"JobType":[ 
+                     {"key":"AMEND"},
+                     {"key":"BUILD"},
+                     {"key":"RE-BUILD"},
+                     {"key":"IMAGE_WORK"},
+                     {"key":"AMEND_RECREATION"},
+                     {"key":"AMEND_ARTWORK"},
+                     {"key":"DISPATCH"},
+                     {"key":"NPD"},
+                     {"key":"REPRO"},
+					 {"key":"OTHERS"},
+
+                     
+    ],
+    "print_orientation":[
+                     {"key":"SURFACE"},
+                     {"key":"REVERSE"},
+                     {"key":"NA"}
+    
+    ],
+    "barcode_type":[
+                    {"key":"EAN8"},
+                    {"key":"EAN13"},
+                    {"key":"DATAMATRIX"},
+                    {"key":"QC CODE"},
+                    {"key":"NA"}
+    ],
+    "screen_ruling":[
+                    {"key":"120#"},
+                    {"key":"133#"},
+                    {"key":"150#"},
+                    {"key":"175#"},
+                    {"key":"200#"},
+                    {"key":"250#"},
+                    {"key":"NA"}
+    ],
+    "dot_shape":[
+                    {"key":"ELLIPTICAL DOTS"},
+                    {"key":"SQUARE DOTS"},
+                    {"key":"NA"}
+    ],
+    "numberOf_colours":[
+                    {"key":"1"},
+                    {"key":"2"},
+                    {"key":"3"},
+                    {"key":"4"},
+                    {"key":"5"},
+                    {"key":"6"},
+                    {"key":"7"},
+                    {"key":"8"},
+                    {"key":"9"},
+                    {"key":"10"},
+                    {"key":"11"},
+                    {"key":"12"},
+                    {"key":"13"},
+                    {"key":"14"}
+                
+  ],
+    "status" :[
+                     {"key":"Pre Flight-Check"},
+			         {"key":"Pre Flight"},
+			         {"key":"ArtWork"},
+			         {"key":"WIP"},
+			         {"key":"QC-CHECK"},
+			         {"key":"QC"},
+			         {"key":"QC-CORR-CHECK"},
+			         {"key":"QC-WIP"},
+			         {"key":"QC-CORR"},
+			         {"key":"QC-CORR-WIP"},
+			         {"key":"QC-CORR-DONE"},
+			         {"key":"PFC-HOLD"},
+			         {"key":"PROD-HOLD"},
+			         {"key":"QC-HOLD"},
+			         {"key":"QC-Completed"},
+			         {"key":"Approved"}
+    
+    ],
+    "varnish":[
+       {"key":"Spot Varnish"},
+       {"key":"Full Varnish "}
+    ]
+    
+}

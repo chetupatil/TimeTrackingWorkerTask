@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration status="warn" monitorInterval="5">
+
+	<Properties>
+		<Property name="log-path">./logs</Property>
+	</Properties>
+	
+	<Appenders>
+  
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout>
+				<pattern>[%-5level] %d{dd-MMM-yyyy@HH.mm.ss} %c{1} [%t] - %msg%n</pattern>
+			</PatternLayout>
+		</Console>
+
+		<RollingFile name="PMS.log" fileName="${log-path}/PMS.log"
+			filePattern="${log-path}/snmp-%d{yyyy-MM-dd}.%i.log">
+			<PatternLayout>
+				<pattern>[%-5level]%d{yy-MM-dd HH:mm:ss.SSS} %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+				<SizeBasedTriggeringPolicy size="50mb" />
+			</Policies>	
+			<DefaultRolloverStrategy compressionLevel="0" max="5"/>
+		</RollingFile>
+	</Appenders>
+  
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="PMS.log"/>
+			<appender-ref ref="Console"/>
+		</Root>
+
+	</Loggers>
+
+</Configuration>
