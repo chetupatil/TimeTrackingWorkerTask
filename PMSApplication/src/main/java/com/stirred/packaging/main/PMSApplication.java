@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
  * Main Application Starts from this point
  * Component Scan will scan all packages.
  * 
- * @author Siraj
+ *
  *
  */
 @SpringBootApplication
